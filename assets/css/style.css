@@ -1,0 +1,212 @@
+body {
+    background-color: #d9dcd6;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Starting style for header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    height: 10vh;
+}
+
+header h1 {
+    font-size: 48px;
+    align-self: center;
+}
+
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Starting style for navigation */
+
+nav {
+    justify-self: center;
+    align-self: center;
+    display: inline;
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav p {
+    font-size: 16px;
+}
+
+/* Starting style for main */
+
+main {
+    display:flex;
+    margin-left: 20px;
+    height: auto;
+}
+
+/* Starting style for image background */
+
+.image-background {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Starting style for central section */
+
+.central-section {
+    display:flex;
+    flex-direction: column;
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.central-section article {
+    display:flex;
+    padding: 50px;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.central-section img {
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+.central-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;    
+}
+
+/* Starting style for search-engine-optimization style */
+
+#search-engine-optimization{
+    display: flex;
+    height: auto;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.text-search-engine-optimization{
+    display: flex;
+    flex-direction: column;
+    
+}
+.text-search-engine-optimization h2 {
+    order:0;    
+}
+
+/* Starting style for online-reputation-management style */
+
+#online-reputation-online{
+    display: flex;
+    margin-bottom: 20px;
+}
+#online-reputation-online img{
+    margin-left: 25px;
+    order: 2;
+}
+.text-online-reputation-management{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.text-online-reputation-management h2 {
+    order:0;    
+}
+
+/* Starting style for social-media-marketing style */
+
+#social-media-marketing{
+    display: flex;
+    height: auto;
+    align-self: flex-end;
+    margin-bottom: 12px;
+}
+.text-social-media-marketing{
+    display: flex;
+    flex-direction: column;
+    
+}
+.text-social-media-marketing h2 {
+    order:0;    
+}
+
+/* Starting style for side section */
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-bottom: 32px;
+    padding: 20px;
+    width: 20%;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    color: #ffffff;
+}
+
+aside h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+aside p{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+aside img{
+    display: block;
+    margin: auto;
+    max-width: 150px;
+}
+
+.article-aside{
+    justify-content: center;
+
+}
+
+/* Starting style for footer */
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+    height:4vh;
+}
